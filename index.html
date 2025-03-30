@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Tech Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="overlay"></div>
+    
+    <header>
+        <div class="terminal-nav">
+            <div class="terminal-prompt">
+                <span class="terminal-user">user@portfolio</span>:<span class="terminal-path">~/resume</span>$ <span class="terminal-cursor">_</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#education">education</a></li>
+                    <li><a href="#experience">experience</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#publications">publications</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="glitch-wrapper">
+                    <h1 class="glitch" data-text="PIN (CAMPION) QIAN">PIN (CAMPION) QIAN</h1>
+                </div>
+                <h2 class="subtitle">CMU MASTER STUDENT <span class="accent">|</span> AI & SYSTEMS <span class="accent">|</span> RESEARCHER</h2>
+                <div class="hero-description">
+                    <!-- do not change below line -->
+                    <p>Exploring <span class="highlight">complex problems</span> through <span class="highlight">innovative research</span></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/pinqian" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:pqian@andrew.cmu.edu"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> About Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hello, I'm Pin (Campion) Qian, a CMU Master student focusing on AI & Systems with substantial experiences in RL, LLMs, and RecSys, seeking AI/ML opportunities.</p>
+                        
+                        <div class="terminal-box">
+                            <div class="terminal-header">
+                                <span class="terminal-dot red"></span>
+                                <span class="terminal-dot yellow"></span>
+                                <span class="terminal-dot green"></span>
+                                <span class="terminal-title">pin@research:~</span>
+                            </div>
+                            <div class="terminal-body">
+                                <p><span class="command">$ cat contact_info.txt</span></p>
+                                <p>Email: pqian@andrew.cmu.edu</p>
+                                <p>Phone: +1 (412) 696 8847</p>
+                                <p><span class="command">$</span><span class="terminal-cursor">_</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Education</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="education-container" id="education-container">
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">M.S. in Artificial Intelligence Engineering</div>
+                            <div class="item-date">Dec 2024</div>
+                        </div>
+                        <div class="item-subtitle">Carnegie Mellon University</div>
+                    </div>
+                    
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">B.S. in Computer Science</div>
+                            <div class="item-date">Jun 2023</div>
+                        </div>
+                        <div class="item-subtitle">University of Liverpool</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Work Experience</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="experience-container" id="experience-container">
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Software Engineer Intern, Machine Learning</div>
+                            <div class="item-date">May 2024 – Aug 2024</div>
+                        </div>
+                        <div class="item-subtitle">Meta</div>
+                        <ul class="item-description">
+                            <li>Worked on large vision-language models for ad understanding to improve audience targeting in the early-stage delivery system</li>
+                            <li>Constructed ad-cohort level training datasets using Presto SQL, designed a discriminative task to fine-tune LLaVA for matching creatives with user cohorts based on MetaTrainer, achieving a 23.8% recall improvement compared to zero-shot</li>
+                            <li>Developed a scalable Dataswarm recurrent inference pipeline for internal GenAI models, processing 40TB data daily and populating the result to Hive; Indexed in Laser Tier, doubling query speed for downstream tasks</li>
+                            <li>Collaborated with research team, leveraged LLaVA-Next, AnyMAL, and LLaMA3 with video-specific prompts for analysis</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Presto SQL</span>
+                            <span class="technique-tag">LLaVA</span>
+                            <span class="technique-tag">MetaTrainer</span>
+                            <span class="technique-tag">Dataswarm</span>
+                            <span class="technique-tag">Hive</span>
+                            <span class="technique-tag">Laser Tier</span>
+                            <span class="technique-tag">LLaVA-Next</span>
+                            <span class="technique-tag">AnyMAL</span>
+                            <span class="technique-tag">LLaMA3</span>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Machine Learning R&D Intern</div>
+                            <div class="item-date">Jun 2022 – Oct 2022</div>
+                        </div>
+                        <div class="item-subtitle">Tencent</div>
+                        <ul class="item-description">
+                            <li>Worked on action alignment to optimize the anthropomorphic performance of PUBG game AI via supervised and RL algorithms</li>
+                            <li>Designed and implemented a hierarchical autoregression model, trained in data parallelism fashion using TensorFlow and Horovod, achieving a 6.8% improvement in yaw metrics, streamlined production integration with TFServing and Docker.</li>
+                            <li>Developed data pipelines with PySpark, managing over 10+ ETL jobs for large datasets from AWS S3 for feature engineering, and tuned Spark configurations for optimal resource allocation, leading to 250% speedup</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">TensorFlow</span>
+                            <span class="technique-tag">Horovod</span>
+                            <span class="technique-tag">TFServing</span>
+                            <span class="technique-tag">Docker</span>
+                            <span class="technique-tag">PySpark</span>
+                            <span class="technique-tag">AWS S3</span>
+                            <span class="technique-tag">Spark</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Projects</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="projects-grid" id="projects-container">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Large Language Model Systems</h3>
+                        <p class="project-duration">Spring 2024</p>
+                        <p class="project-description">Gained basic knowledge on LLMs Distributed Training, GPU Acceleration, Efficient Fine-Tuning, PageAttention, FlashAttention, Mixture-of-Expert, Long-Context LLMs, Retrieval-Augmented Generation, Speculative Decoding, and Multimodal LLMs. Proposed and implemented prompt-specific dynamic tree construction to improve Sequoia speculative decoding method.</p>
+                        <div class="project-tech">
+                            <span>LLMs</span>
+                            <span>GPU Acceleration</span>
+                            <span>PageAttention</span>
+                            <span>FlashAttention</span>
+                            <span>Sequoia</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">ViDove | Open Source [Github]</h3>
+                        <p class="project-duration">Aug 2023 – Dec 2023</p>
+                        <p class="project-description">Developed an End-to-end Video Translation Pipeline for video subtitle generation in specific field. Designed a specific testing metric for video subtitle translation task under a realistic setting based on COMET score, SacreBLEU, and our own time stamp evaluation.</p>
+                        <div class="project-tech">
+                            <span>COMET score</span>
+                            <span>SacreBLEU</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-folder-open"></i>
+                            <div class="project-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">NeuraLego | Full-Stack Web Project</h3>
+                        <p class="project-duration">Feb 2022 – Jun 2022</p>
+                        <p class="project-description">Led a team of 5 to develop NeuraLego, a zero-code neural network editor, employing SCRUM for Agile management. Orchestrated the platform’s front using Vue.js and crafted the back end with Django. Created over 20+ server-side APIs. Integrated SQLAlchemy with SQLite, resulting in a 25% enhancement in query response time.</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Django</span>
+                            <span>SQLAlchemy</span>
+                            <span>SQLite</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Publications</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="publications-container" id="publications-container">
+                    <div class="publication-item">
+                        <h3 class="publication-title">From deterministic to stochastic: an interpretable stochastic model-free reinforcement learning framework for portfolio optimization.</h3>
+                        <div class="publication-meta">
+                            <span class="publication-journal">Appl Intell</span>
+                            <span class="publication-year">2022</span>
+                        </div>
+                        <div class="publication-authors">
+                            <p>Zitao Song, Yining Wang, Pin Qian</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Technical Skills</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-java"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>C/C++/C#</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-php"></i>
+                                <span>PHP</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML/CSS/JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>SQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-microchip"></i>
+                                <span>CUDA</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-terminal"></i>
+                                <span>Shell</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Machine Learning</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>PyTorch</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>TensorFlow</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Transformers</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>NumPy</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Pandas</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Matplotlib</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <div class="skill-items" id="technical-skills-container">
+                            <div class="skill-item">
+                                <i class="fab fa-docker"></i>
+                                <span>Docker</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-dharmachakra"></i>
+                                <span>K8s</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-aws"></i>
+                                <span>AWS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-google"></i>
+                                <span>GCP</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>PostgreSQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>Redis</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-git"></i>
+                                <span>Git/GitHub</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-linux"></i>
+                                <span>Unix/Linux</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Contact Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p>I'm always open to research collaborations and interesting projects. Feel free to reach out!</p>
+                    </div>
+                    <div class="contact-methods">
+                        <a href="mailto:pqian@andrew.cmu.edu" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>pqian@andrew.cmu.edu</span>
+                        </a>
+                        <a href="https://linkedin.com/in/pinqian" target="_blank" class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/pinqian</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>© 2025 Pin (Campion) Qian | CMU Master Student</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/johndoe" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/pinqian" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:pqian@andrew.cmu.edu"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Animate terminal cursor
+        setInterval(() => {
+            const cursors = document.querySelectorAll('.terminal-cursor');
+            cursors.forEach(cursor => {
+                cursor.style.opacity = cursor.style.opacity === '0' ? '1' : '0';
+            });
+        }, 500);
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
